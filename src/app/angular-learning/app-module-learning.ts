@@ -47,7 +47,7 @@ Mercredi: finir les exos, ensuite on va finir l'explication de AppModule, on va 
 3. Comment déclarer de template et du style ?
 4. Comment on demarre une application Angular ?
 
-On créera notre nouveau component
+On créera notre nouveau component 
 
 A apprendre:
 
