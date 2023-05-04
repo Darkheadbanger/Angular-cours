@@ -8,14 +8,15 @@
   Vue comme notre exemple on peut inserer directement du code dans le HTML
   Ce bout d'HTML est une interpolation exemple:
   {{ nom }}.
-  Une interpolation est simplement, comme son l'indique, le remplacement de la variable a une valeur, de manière dynamique.
-  Ainsi, si la valeur de la variable "nom" est modifié, le HTML sera mise a jour automatiquement.
+  Une interpolation est simplement, comme son l'indique, le remplacement de la variable a une valeur, 
+  de manière dynamique. Ainsi, si la valeur de la variable "nom" est modifié, le HTML sera mise a jour automatiquement.
   Cela permet de rendre l'HTML "REACTIF".
 
   Les métadonnées 
   
   Elles permettent de dire à Angular comment traiter la classe.
-  La classe 'App' ne se distinque d'une classe classique que parcequ'elle comporte juste au dessus d'elle un décorateur "@Component".
+  La classe 'App' ne se distinque d'une classe classique que parcequ'elle comporte juste au dessus d'elle
+  un décorateur "@Component".
   Ce décorateur permet donc :
 
   Premièrement, de dire a angular que cette classe est un composant (component).
