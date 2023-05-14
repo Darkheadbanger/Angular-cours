@@ -1,31 +1,23 @@
-<!-- Le but est d'avoir la couleur qui change en fonction d'un mot dynamique -->
-
 <!--  La directive structurelle -->
 <p>
-  my-<span (click)="firstoOrSecond($event)" class="first">{{ first }}</span>
-  <!-- *ngIf="second === 'first'" -->
+  my-
   <span
-    (click)="firstoOrSecond($event)"
-    class="second"
-    *ngIf="first === 'second'"
-    >{{ second }}</span
+    *ngIf="states.isFirst1; else secondBlock1"
+    (click)="firstOrSecond('isFirst1', $event)"
+    class="first"
+    >first</span
   >
+  <ng-template #secondBlock1>
+    <span (click)="firstOrSecond('isFirst1', $event)" class="second">second</span>
+  </ng-template>
   works!
 </p>
 <!-- Directive d'attribut -->
 <p>
   my-<span
-    (click)="firstoOrSecond($event)"
-    [ngClass]="{ first: isFirst, second: !isFirst }"
-    >{{ first }}</span
+    (click)="firstOrSecond('isFirst2', $event)"
+    [ngClass]="states.isFirst2 ? 'first' : 'second'"
+    >{{ states.isFirst2 ? "David" : "Jerome" }}</span
   >
   works!
 </p>
-<!-- Directive -->
-<!-- <p>
-  my-<span [ngClass]="first === 'first' ? 'red' : 'yellow'">{{ first }}</span>
-  works!
-</p> -->
-
-<!-- Exo a finir a la maison, toggle true false -->
-<!-- les composants, les templates, les métadonnées  -->
