@@ -16,3 +16,16 @@ export class MyFirstComponent {
     this.states[key] = !this.states[key];
   }
 }
+
+// demain
+
+
+// - Qu’est-ce qu’un composant Angular
+// - Comment une application Angular démarre
+// - Qu’est-ce qu’un module Angular
+// - Comment déclarer des templates et des styles
+// repondre a " C'est quoi Angular CLI"
+// C'est quoi les metadonées
+
+// regarder les fichier : main.ts , app.ts, index.html
+// Module, appModule c'est quoi
