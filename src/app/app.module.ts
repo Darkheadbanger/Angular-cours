@@ -5,10 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MyFirstComponent } from './my-first/my-first/my-first.component';
 import { MySecondComponent } from './my-second/my-second.component';
+import { DecorateurComponent } from './decorateur/decorateur.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, MyFirstComponent, MySecondComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    MyFirstComponent,
+    MySecondComponent,
+    DecorateurComponent,
+  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

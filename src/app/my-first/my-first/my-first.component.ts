@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// Changer le texte et le couleur qui dépends du texte
 
 @Component({
   selector: 'app-my-first',
@@ -16,9 +17,6 @@ export class MyFirstComponent {
     this.states[key] = !this.states[key];
   }
 }
-
-// demain
-
 
 // - Qu’est-ce qu’un composant Angular
 // - Comment une application Angular démarre
