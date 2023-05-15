@@ -20,10 +20,8 @@ export class MyFirstComponent {
 
 // - Qu’est-ce qu’un composant Angular
 // - Comment une application Angular démarre
-// - Qu’est-ce qu’un module Angular
+// regarder les fichier : main.ts , app.ts, index.html
+// - Qu’est-ce qu’un module Angular, appModule
 // - Comment déclarer des templates et des styles
 // repondre a " C'est quoi Angular CLI"
 // C'est quoi les metadonées
-
-// regarder les fichier : main.ts , app.ts, index.html
-// Module, appModule c'est quoi
