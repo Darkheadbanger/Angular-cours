@@ -20,17 +20,14 @@ export class MyFirstComponent {
 
 /**
  *     Qu’est-ce qu’un composant Angular :
-
-    Un composant Angular contrôle une partie de l'écran appelée vue. Chaque application Angular a au moins un composant, le composant racine, généralement appelé AppComponent. 
-     Un composant se compose d'un template HTML, qui définit la vue, et d'une classe TypeScript, qui gère la logique de la vue.
+ *  Un composant Angular contrôle une partie de l'écran appelée vue. Chaque application Angular a au moins un composant, le composant racine, généralement appelé AppComponent. 
+    Un composant se compose d'un template HTML, qui définit la vue, et d'une classe TypeScript, qui gère la logique de la vue.
 
     Qu’est-ce qu’un décorateur de composant :
-
     Un décorateur de composant, @Component, est une fonction spéciale qui ajoute des métadonnées à une classe de composant.
      Ces métadonnées indiquent à Angular comment utiliser la classe : en tant que composant, et comment le composant doit être traité.
 
     Comment une application Angular démarre :
-
     Une application Angular démarre en exécutant le fichier main.ts, qui initialise l'environnement d'exécution et lance AppModule (le module racine).
     AppModule déclare AppComponent (le composant racine), qui est chargé dans le index.html à l'emplacement de la balise <app-root>.
 
