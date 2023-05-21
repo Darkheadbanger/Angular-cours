@@ -1,4 +1,5 @@
 <!--  La directive structurelle -->
+
 <p>
   my-
   <span
@@ -7,8 +8,11 @@
     class="first"
     >first</span
   >
+  <!-- Explqiuer le dollars event ($event) -->
   <ng-template #secondBlock1>
-    <span (click)="firstOrSecond('isFirst1', $event)" class="second">second</span>
+    <span (click)="firstOrSecond('isFirst1', $event)" class="second"
+      >second</span
+    >
   </ng-template>
   works!
 </p>

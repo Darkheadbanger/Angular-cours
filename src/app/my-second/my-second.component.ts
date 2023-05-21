@@ -51,3 +51,13 @@ export class MySecondComponent {
 // - La liaison de propriété (property binding)[src] ="urlPath"
 // - La liaison d’attribut (attribute binding) [attr.aria-label]
 // - La liaison de données dans les deux sens (two-way data binding) ngModel
+
+// 1. (directives attributes "attribute directives")
+// Les directives d'attribut modifie le comportement ou l'apparence d'un élément.
+// Les directives natives de ce type sont "ngStyle" et "ngClass";
+
+// 2.(Directives strcuturelles "strcutral directives")
+// Les directives strcuturelle modifie la strcture du DOM, par exemple en ajoutant, supprimant ou manipulant les elements.
+// Les directives strcuturelle sont facielement reconnaissable car elle commence par un asteryxe (*) qui est enfaite un raccourci syntaxisque pour
+// "<ng-template>"
+// Des exemples de directives natives de ce type sont "ngFor", "ngIf" et "ngSwitch".

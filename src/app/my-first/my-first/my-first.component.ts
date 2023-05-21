@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-first.component.scss'],
 })
 export class MyFirstComponent {
+  // TODO a détaillé plus la classe enfin de mieux comprendre et d'expliquer le TS.
   public states: { [key in 'isFirst1' | 'isFirst2']: boolean } = {
     isFirst1: true,
     isFirst2: true,
@@ -17,6 +18,10 @@ export class MyFirstComponent {
     this.states[key] = !this.states[key];
   }
 }
+
+/*
+ * C'est quoi les schèmas et schematic sur TS et Angular ?
+ */
 
 /**
  *     Qu’est-ce qu’un composant Angular :
